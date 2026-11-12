@@ -2,5 +2,43 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnBoton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pantalla1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnBoton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pantalla2">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnBoton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pantalla3">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnBoton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pantalla4">
+
+        </Button>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

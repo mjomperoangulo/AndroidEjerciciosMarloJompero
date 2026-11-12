@@ -58,32 +58,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        //Ejercicio 2
-
-        val handler = Handler(Looper.getMainLooper())
-        val intent = Intent(this, Ej2::class.java)
-
-        val pendingIntent = PendingIntent.getActivity(
-            this,
-            0,
-            intent,
-            PendingIntent.FLAG_IMMUTABLE
-
-
-        )
-
-
-
-        btnEj2.setOnClickListener {
-
-            handler.postDelayed({
-                pendingIntent.send()
-            },10000)
-
-
-
-
-        }
 
 
 
