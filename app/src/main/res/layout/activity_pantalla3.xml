@@ -61,21 +61,21 @@
             android:orientation="horizontal">
 
             <View
-                android:layout_width="match_parent"
+                android:layout_width="140dp"
                 android:layout_height="400dp"
                 android:background="#0ED7F4">
 
             </View>
 
             <View
-                android:layout_width="match_parent"
+                android:layout_width="140dp"
                 android:layout_height="400dp"
                 android:background="#000000">
 
             </View>
 
             <View
-                android:layout_width="match_parent"
+                android:layout_width="140dp"
                 android:layout_height="400dp"
                 android:background="#0ED7F4">
 
