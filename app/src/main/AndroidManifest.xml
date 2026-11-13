@@ -16,6 +16,9 @@
             android:exported="false" />
         <activity android:name=".Ej2" />
         <activity android:name=".Ej3" />
+        <activity android:name=".Ej4"/>
+        <activity android:name=".Ej5"/>
+        <activity android:name=".Ej6"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
